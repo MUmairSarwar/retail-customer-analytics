@@ -128,14 +128,18 @@ def save_tables(tables: dict[str, pd.DataFrame]) -> None:
         table.to_csv(PROCESSED_DIR / f"{name}.csv", index=False)
 
 
-def build_database(data: pd.DataFrame, tables: dict[str, pd.DataFrame]) -> None:
+def build_database(
+    data: pd.DataFrame,
+    tables: dict[str, pd.DataFrame],
+    database_path=DATABASE,
+) -> None:
     export = data.copy()
     export["invoice_date"] = export["invoice_date"].astype(str)
     export["customer_id"] = export["customer_id"].astype("string")
     export["year"] = export["year"].astype("string")
     export["month"] = export["month"].astype("string")
     export["hour"] = export["hour"].astype("string")
-    temporary_database = DATABASE.with_suffix(".tmp")
+    temporary_database = database_path.with_suffix(".tmp")
     temporary_database.unlink(missing_ok=True)
     connection = sqlite3.connect(temporary_database)
     try:
@@ -148,7 +152,7 @@ def build_database(data: pd.DataFrame, tables: dict[str, pd.DataFrame]) -> None:
         connection.commit()
     finally:
         connection.close()
-    temporary_database.replace(DATABASE)
+    temporary_database.replace(database_path)
 
 
 def save_figures(tables: dict[str, pd.DataFrame]) -> None:
