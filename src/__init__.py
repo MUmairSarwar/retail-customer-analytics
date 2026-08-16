@@ -1,0 +1,2 @@
+"""Retail customer analytics project."""
+
