@@ -1,0 +1,17 @@
+{
+  "source_rows": 541909,
+  "valid_sales_rows": 530104,
+  "excluded_rows": 11805,
+  "missing_customer_id_rows": 135080,
+  "missing_customer_id_rate": 0.249266943342886,
+  "revenue": 10666684.544,
+  "return_value": 896812.49,
+  "return_value_rate": 0.07755547369131621,
+  "orders": 19960,
+  "customers": 4338,
+  "average_order_value": 534.403033266533,
+  "repeat_customer_rate": 0.6558321807284463,
+  "top_10pct_customer_revenue_share": 0.6137506574628907,
+  "date_start": "2010-12-01",
+  "date_end": "2011-12-09"
+}
