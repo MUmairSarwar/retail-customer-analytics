@@ -102,8 +102,15 @@ The dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/b
 - No product cost, margin, inventory level or reason-for-return field is available.
 - December 2011 is incomplete and should not be compared directly with full months.
 
+## Other selected projects
+
+- [Rhine-Main Heat Risk Forecasting](https://github.com/MUmairSarwar/germany-heat-risk-forecasting)
+- [Telecom Customer Churn Prediction](https://github.com/MUmairSarwar/customer-churn-prediction)
+- [Robust Federated Learning](https://github.com/MUmairSarwar/robust-federated-learning-ml-security)
+- [Strategic Classification](https://github.com/MUmairSarwar/strategic-classification-toy)
+
 ## Author
 
 Muhammad Umair Sarwar  
-Incoming M.Sc. Mathematics in Data Science student at TU Darmstadt  
+M.Sc. Mathematics student (Mathematics in Data Science), TU Darmstadt  
 [LinkedIn](https://www.linkedin.com/in/muhammad-umair-sarwar) | [GitHub](https://github.com/MUmairSarwar)
