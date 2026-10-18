@@ -104,10 +104,11 @@ The dataset is licensed under [CC BY 4.0](https://creativecommons.org/licenses/b
 
 ## Other selected projects
 
-- [Rhine-Main Heat Risk Forecasting](https://github.com/MUmairSarwar/germany-heat-risk-forecasting)
-- [Telecom Customer Churn Prediction](https://github.com/MUmairSarwar/customer-churn-prediction)
+- [Fair Multi-Agent Battery Control (MARL)](https://github.com/MUmairSarwar/fair-multiagent-battery-control)
 - [Robust Federated Learning](https://github.com/MUmairSarwar/robust-federated-learning-ml-security)
-- [Strategic Classification](https://github.com/MUmairSarwar/strategic-classification-toy)
+- [Rhine-Main Heat Risk Forecasting](https://github.com/MUmairSarwar/germany-heat-risk-forecasting)
+- [German Energy Operations Analytics](https://github.com/MUmairSarwar/german-energy-operations)
+- [Strategic Classification](https://github.com/MUmairSarwar/strategic-classification)
 
 ## Author
 
