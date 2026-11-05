@@ -8,6 +8,15 @@ This project answers a practical retail question:
 
 I built a reproducible Python and SQL pipeline, a small interactive dashboard, and an executive report. The focus is not only on charts. It is on clear metric definitions, data-quality checks and decisions a retail manager could act on.
 
+
+## Data period and version history
+
+- **Source data:** UCI Online Retail transactions from December 2010 to December 2011. These are transaction dates, not development dates.
+- **August 2026:** the reproducible Python/SQL pipeline, RFM analysis, Streamlit dashboard, reports and tests were committed to this repository.
+- **October 2026:** portfolio links were updated.
+
+The repository history records publication and revisions; it does not establish the start date of earlier local work.
+
 ## Business questions
 
 1. How do sales and order value change over time?
