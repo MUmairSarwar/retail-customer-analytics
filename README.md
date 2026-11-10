@@ -15,7 +15,7 @@ I built a reproducible Python and SQL pipeline, a small interactive dashboard, a
 - **August 2026:** the reproducible Python/SQL pipeline, RFM analysis, Streamlit dashboard, reports and tests were committed to this repository.
 - **October 2026:** portfolio links were updated.
 
-The repository history records publication and revisions; it does not establish the start date of earlier local work.
+The commit history shows when work was published here, not when I started on it locally.
 
 ## Business questions
 
