@@ -1,8 +1,8 @@
-# Retail Customer & Operations Analytics
+# Retail Customer Analytics
 
 [![tests](https://github.com/MUmairSarwar/retail-customer-analytics/actions/workflows/tests.yml/badge.svg)](https://github.com/MUmairSarwar/retail-customer-analytics/actions/workflows/tests.yml)
 
-A Python and SQL analysis of one year of transactions from a UK online retailer (UCI Online Retail, December 2010 to December 2011). It answers three practical questions: where revenue comes from, which customers are drifting away, and which products are cancelled or returned unusually often. The output is a set of KPI tables, a SQLite database with documented queries, a Streamlit dashboard and a short executive summary.
+I built a Python and SQL pipeline for the UCI Online Retail dataset, which covers UK online retail transactions from December 2010 to December 2011. The analysis measures sales and returns and uses recency, frequency and monetary value (RFM) to group customers. The repository includes a SQLite database builder, SQL queries, a Streamlit dashboard and an executive summary.
 
 ![Dashboard overview](reports/figures/dashboard_overview.svg)
 
@@ -112,7 +112,7 @@ The code in this repository is MIT licensed.
 
 ## History
 
-The pipeline, RFM analysis, dashboard, reports and tests were committed in August 2026. Later commits only changed documentation and links. The source data itself is from 2010–2011.
+The pipeline, RFM analysis, dashboard, reports and tests appear in the August 2026 GitHub history. UCI published the dataset in 2015, and the transactions are from 2010–2011.
 
 ## Author
 
