@@ -2,13 +2,19 @@ import pandas as pd
 
 
 def _quintile_score(series: pd.Series, high_is_good: bool = True) -> pd.Series:
-    """Create stable quintile scores even when values contain many ties."""
+    """Score values 1-5 by quintile of their rank.
+
+    Ranking with ``method="first"`` breaks ties by position, so ``qcut`` always
+    gets five equal-sized bins even when many customers share a value (for
+    example, frequency 1).
+    """
     ranked = series.rank(method="first")
     score = pd.qcut(ranked, 5, labels=[1, 2, 3, 4, 5]).astype(int)
     return score if high_is_good else 6 - score
 
 
 def assign_segment(row: pd.Series) -> str:
+    """Map R, F and M scores to a segment. Rules are checked in order."""
     r, f, m = row["r_score"], row["f_score"], row["m_score"]
     if r >= 4 and f >= 4 and m >= 4:
         return "Champions"
