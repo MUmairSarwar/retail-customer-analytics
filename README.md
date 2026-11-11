@@ -112,7 +112,7 @@ The code in this repository is MIT licensed.
 
 ## History
 
-The pipeline, RFM analysis, dashboard, reports and tests appear in the August 2026 GitHub history. UCI published the dataset in 2015, and the transactions are from 2010–2011.
+I worked on the original analysis from January to March 2024. The pipeline, RFM analysis, dashboard, reports and tests appear in the August 2026 GitHub history. UCI published the dataset in 2015, and the transactions are from 2010–2011.
 
 ## Author
 
