@@ -112,7 +112,7 @@ The code in this repository is MIT licensed.
 
 ## History
 
-The pipeline, RFM analysis, dashboard, reports and tests were committed in August 2026. Later commits only changed documentation and links. The source data itself is from 2010–2011.
+I worked on this project from January to March 2024. The pipeline, RFM analysis, dashboard, reports and tests were committed in August 2026. Later commits only changed documentation and links. The source data itself is from 2010–2011.
 
 ## Author
 
